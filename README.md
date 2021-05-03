@@ -3,7 +3,7 @@ Display LCD PIC, Arduino, Fresscale, NXP...
 
 # Exemplo de uso
 
-//
+//FUNÇÃO PRINCIPAL, INICIALIZAR CONFORME SEU MICRO CONTROLADOR
 void main(void) {
     //INICIALIZA LCD
     lcd_ini(display_8x5 | _2_linhas,display_ligado | cursor_desligado | cursor_fixo); 
