@@ -1,7 +1,7 @@
 # lcd
 Display LCD PIC, Arduino, Fresscale, NXP...
 
-Exemplo de uso
+# Exemplo de uso
 
 void main(void) {
     //INICIALIZA LCD
