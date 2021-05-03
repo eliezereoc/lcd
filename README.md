@@ -1,13 +1,15 @@
 # lcd
 Display LCD PIC, Arduino, Fresscale, NXP...
 
-A biblioteca esta preparada para lcd 4x20. Para utilizar em lcd 2x20 basta alterar a
+A biblioteca esta preparada para lcd 4x20. 
+Para utilizar em lcd 2x20 basta alterar a
 função void lcdPosYx(char y, char x) em lcd.c
 
 # Exemplo de uso
 
 
 void main(void) {
+    
     //INICIALIZA LCD
     lcd_ini(display_8x5 | _2_linhas,display_ligado | cursor_desligado | cursor_fixo); 
 
